@@ -1,0 +1,53 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+    Task Manager
+
+2. What real-world problem will your program address or help to solve?
+
+    This program will be able to take in a list of daily or weeky tasks and put them in a file. 
+    It will mark them by priority so that you know what is the most urgent task.
+
+3. What will you learn from developing this program?
+
+    I will learn how to have a user input a list that will be entered into a txt file, that can be edited as needed.
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    datetime, tkinter, pytest
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+    create_user_list - makes a list from user input and returns that list
+    sort_priority - sorts through a list by its priority
+    add_to_txt_doc - adds the list to a text document so it is stored for later
+
+6. List the names of the test functions you will write.
+
+    test_create_user_list - makes sure the users list has been created
+    test_sort_prioprity - make sure the sorted list is in the correct order
+    test_add_to_txt_doc - make sure list is added to a txt doc 
